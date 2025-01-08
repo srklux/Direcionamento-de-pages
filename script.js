@@ -1,4 +1,4 @@
-let countdownTime = 3
+let countdownTime = 2
 ; // Tempo de redirecionamento em segundos
 
 // Substitua pelo seu link de afiliado
