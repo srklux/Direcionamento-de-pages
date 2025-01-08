@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carregando...</title>
+    <!-- Otimização de CSS: Minificar e carregar o mais importante primeiro -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Prefira imagens em WebP quando possível -->
+    <picture>
+        <source srcset="background.webp" type="image/webp">
+        <img src="background.jpg" alt="Imagem de fundo" style="display: none;">
+    </picture>
 </head>
 <body>
     <div class="overlay">
@@ -14,6 +20,7 @@
         </div>
     </div>
     
-    <script src="script.js"></script>
+    <!-- Script de redirecionamento com cache de longo ciclo -->
+    <script src="script.js" defer></script>
 </body>
 </html>
