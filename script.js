@@ -1,4 +1,5 @@
-let countdownTime = 3; // Tempo de redirecionamento em segundos
+let countdownTime = 3
+; // Tempo de redirecionamento em segundos
 
 // Substitua pelo seu link de afiliado
 let affiliateLink = "https://go.hotmart.com/Y97273047Y"; // Seu link de afiliado
